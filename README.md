@@ -70,7 +70,7 @@
 
 ### 2. Клонирование репозитория
 ```bash
-git clone https://github.com/ВАШ_АККАУНТ/green-api-max-chat.git
+git clone https://github.com/243028429532893727438sdfsfd-create/green-api-max-chat.git
 cd green-api-max-chat
 ```
 
