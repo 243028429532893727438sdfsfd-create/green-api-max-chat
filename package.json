@@ -1,0 +1,25 @@
+{
+  "name": "green-api-max-chat",
+  "private": true,
+  "version": "1.0.0",
+  "description": "MAX Web Messenger integration with GREEN-API (React, TypeScript, Vite)",
+  "author": "Ivan Pyatyrov <vanya-super2000@mail.ru>",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "lucide-react": "^1.49.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Резюме — Пятыров Иван Алексеевич</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 12mm 15mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+      color: #1e293b;
+      line-height: 1.45;
+      font-size: 13px;
+      background: #ffffff;
+    }
+    .header {
+      border-bottom: 2px solid #0077ff;
+      padding-bottom: 12px;
+      margin-bottom: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .header-left h1 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+    .header-left .job-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: #0077ff;
+      margin-bottom: 6px;
+    }
+    .header-left .meta-info {
+      font-size: 12px;
+      color: #64748b;
+    }
+    .header-right {
+      text-align: right;
+      font-size: 12px;
+      color: #334155;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .header-right a {
+      color: #0077ff;
+      text-decoration: none;
+    }
+    .section {
+      margin-bottom: 14px;
+    }
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #0f172a;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 3px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .section-title::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 12px;
+      background-color: #0077ff;
+      border-radius: 2px;
+    }
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    .skill-tag {
+      background: #f1f5f9;
+      color: #1e293b;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 11.5px;
+      font-weight: 500;
+      border: 1px solid #e2e8f0;
+    }
+    .skill-tag.accent {
+      background: #eff6ff;
+      color: #0077ff;
+      border-color: #bfdbfe;
+      font-weight: 600;
+    }
+    .job {
+      margin-bottom: 10px;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+    .job-title-company {
+      font-weight: 600;
+      font-size: 13.5px;
+      color: #0f172a;
+    }
+    .job-period {
+      font-size: 11.5px;
+      color: #64748b;
+      font-weight: 500;
+    }
+    .job-role {
+      font-size: 12px;
+      color: #0077ff;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .job-desc {
+      font-size: 12.5px;
+      color: #334155;
+      padding-left: 14px;
+    }
+    .job-desc li {
+      margin-bottom: 2px;
+    }
+    .job-desc a {
+      color: #0077ff;
+      text-decoration: none;
+    }
+    .edu-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+    .edu-title {
+      font-weight: 600;
+      color: #1e293b;
+    }
+    .edu-inst {
+      font-size: 12px;
+      color: #475569;
+    }
+    .edu-year {
+      font-size: 11.5px;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-left">
+      <h1>Пятыров Иван Алексеевич</h1>
+      <div class="job-title">Frontend-разработчик React / Fullstack-разработчик</div>
+      <div class="meta-info">25 лет (28.12.2000) • г. Биробиджан • Гражданство: РФ • Формат: Удаленная работа</div>
+    </div>
+    <div class="header-right">
+      <div><strong>Телефон:</strong> +7 (999) 010-17-50</div>
+      <div><strong>Email:</strong> <a href="mailto:vanya-super2000@mail.ru">vanya-super2000@mail.ru</a></div>
+      <div><strong>Telegram:</strong> <a href="https://t.me/ivan_pyatyrov">@ivan_pyatyrov</a></div>
+      <div><strong>GitHub:</strong> github.com/ivan-pyatyrov</div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="section-title">Ключевые навыки</div>
+    <div class="skills-grid">
+      <span class="skill-tag accent">React</span>
+      <span class="skill-tag accent">TypeScript</span>
+      <span class="skill-tag accent">JavaScript (ES6+)</span>
+      <span class="skill-tag accent">REST API</span>
+      <span class="skill-tag accent">GREEN-API</span>
+      <span class="skill-tag accent">HTML5 / CSS3</span>
+      <span class="skill-tag accent">Vite / Webpack</span>
+      <span class="skill-tag">Redux / State Management</span>
+      <span class="skill-tag">Node.js</span>
+      <span class="skill-tag">Git / GitHub</span>
+      <span class="skill-tag">PostgreSQL / SQL</span>
+      <span class="skill-tag">Docker</span>
+      <span class="skill-tag">Vue.js / Angular</span>
+      <span class="skill-tag">Sass / Less</span>
+      <span class="skill-tag">Web Audio API</span>
+      <span class="skill-tag">Responsive UI / Адаптивная верстка</span>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title">Опыт работы — 4 года 11 месяцев</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title-company">ООО "ПрофСталь"</span>
+        <span class="job-period">Июль 2024 — настоящее время (2 года 4 мес.)</span>
+      </div>
+      <div class="job-role">Web-программист / Frontend-разработчик</div>
+      <ul class="job-desc">
+        <li>Разработка интерактивных веб-приложений и сервисов для корпоративных сайтов.</li>
+        <li>Создание сложных пользовательских калькуляторов расчета порезки, кровли, порубки металлопроката: <a href="https://prof-stal42.ru/">prof-stal42.ru</a>, <a href="https://profstal.net/">profstal.net</a>, <a href="https://aktobe.metall-invest.kz/">aktobe.metall-invest.kz</a>.</li>
+        <li>Интеграция сторонних сервисов по REST API, оптимизация производительности интерфейса.</li>
+        <li>Внедрение современных IT-решений и автоматизация технологических процессов на производстве.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title-company">ООО "Мебельный комбинат Фома"</span>
+        <span class="job-period">Август 2023 — Июнь 2024 (11 мес.)</span>
+      </div>
+      <div class="job-role">Администратор-программист</div>
+      <ul class="job-desc">
+        <li>Администрирование сайта компании, разработка и интеграция новых модулей интерфейса.</li>
+        <li>Поддержка серверной и сетевой инфраструктуры, обеспечение отказоустойчивости сервисов.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title-company">Приамурский государственный университет им. Шолом-Алейхема</span>
+        <span class="job-period">Сентябрь 2019 — Июнь 2021 (1 год 10 мес.)</span>
+      </div>
+      <div class="job-role">Техник-лаборант</div>
+      <ul class="job-desc">
+        <li>Диагностика и решение программно-аппаратных проблем, поддержка парка вычислительной техники.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title">Образование</div>
+    <div class="edu-item">
+      <div>
+        <div class="edu-title">Приамурский государственный университет им. Шолом-Алейхема</div>
+        <div class="edu-inst">Факультет информационных и промышленных технологий, Техник-программист</div>
+      </div>
+      <div class="edu-year">2021</div>
+    </div>
+    <div class="edu-item" style="margin-top: 6px;">
+      <div>
+        <div class="edu-title">Юрайт Академия — курс «Современный студент»</div>
+        <div class="edu-inst">Повышение квалификации, современные цифровые компетенции</div>
+      </div>
+      <div class="edu-year">2021</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title">Дополнительная информация</div>
+    <p style="font-size: 12.5px; color: #334155; line-height: 1.5;">
+      <strong>Языки:</strong> Русский (родной), Английский (B2 — средне-продвинутый).<br>
+      <strong>Рекомендации:</strong> СМЦ «ПрофСталь», Сильченко Роман Германович (Директор).<br>
+      <strong>Личные качества:</strong> Ответственный, внимательный к деталям, быстро погружаюсь в незнакомые технологии и предметную область, умею доводить задачи до рабочего результата в срок.
+    </p>
+  </section>
+
+</body>
+</html>
